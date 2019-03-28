@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<html>
+<body>
+{"response":"success","operation":"add","operand1":10,"operand2":-1,"value":9}
+
+</body>
+</html>
+]]>
+    </line>
+    <line>
+      <![CDATA[<html>
+<body>
+{"response":"success","operation":"add","operand1":12,"operand2":2,"value":14}
+
+</body>
+</html>
+]]>
+    </line>
+    <line>
+      <![CDATA[<html>
+<body>
+{"response":"success","operation":"add","operand1":14,"operand2":3,"value":17}
+
+</body>
+</html>
+]]>
+    </line>
+    <line>
+      <![CDATA[<html>
+<body>
+{"response":"success","operation":"add","operand1":16,"operand2":4,"value":20}
+
+</body>
+</html>
+]]>
+    </line>
+    <line>
+      <![CDATA[<html>
+<body>
+{"response":"success","operation":"add","operand1":18,"operand2":5,"value":23}
+
+</body>
+</html>
+]]>
+    </line>
+    <line>
+      <![CDATA[<html>
+<body>
+{"response":"bad data"}
+
+</body>
+</html>
+]]>
+    </line>
+    <line>
+      <![CDATA[<html>
+<body>
+{"response":"success","operation":"subtract","operand1":12,"operand2":2,"value":10}
+
+</body>
+</html>
+]]>
+    </line>
+    <line>
+      <![CDATA[<html>
+<body>
+{"response":"success","operation":"subtract","operand1":14,"operand2":3,"value":11}
+
+</body>
+</html>
+]]>
+    </line>
+    <line>
+      <![CDATA[<html>
+<body>
+{"response":"success","operation":"subtract","operand1":16,"operand2":4,"value":12}
+
+</body>
+</html>
+]]>
+    </line>
+    <line>
+      <![CDATA[<html>
+<body>
+{"response":"success","operation":"subtract","operand1":18,"operand2":5,"value":13}
+
+</body>
+</html>
+]]>
+    </line>
+    <line>
+      <![CDATA[<html>
+<body>
+{"response":"success","operation":"divide","operand1":10,"operand2":1,"value":10}
+
+</body>
+</html>
+]]>
+    </line>
+    <line>
+      <![CDATA[<html>
+<body>
+{"response":"success","operation":"divide","operand1":12,"operand2":2,"value":6}
+
+</body>
+</html>
+]]>
+    </line>
+    <line>
+      <![CDATA[<html>
+<body>
+{"response":"success","operation":"divide","operand1":14,"operand2":3,"value":4}
+
+</body>
+</html>
+]]>
+    </line>
+    <line>
+      <![CDATA[<html>
+<body>
+{"response":"success","operation":"divide","operand1":16,"operand2":4,"value":4}
+
+</body>
+</html>
+]]>
+    </line>
+    <line>
+      <![CDATA[<html>
+<body>
+{"response":"success","operation":"divide","operand1":18,"operand2":5,"value":3}
+
+</body>
+</html>
+]]>
+    </line>
+    <line>
+      <![CDATA[<html>
+<body>
+{"response":"success","operation":"multiply","operand1":10,"operand2":1,"value":10}
+
+</body>
+</html>
+]]>
+    </line>
+    <line>
+      <![CDATA[<html>
+<body>
+{"response":"success","operation":"multiply","operand1":12,"operand2":2,"value":24}
+
+</body>
+</html>
+]]>
+    </line>
+    <line>
+      <![CDATA[<html>
+<body>
+{"response":"success","operation":"multiply","operand1":14,"operand2":3,"value":42}
+
+</body>
+</html>
+]]>
+    </line>
+    <line>
+      <![CDATA[<html>
+<body>
+{"response":"success","operation":"multiply","operand1":16,"operand2":4,"value":64}
+
+</body>
+</html>
+]]>
+    </line>
+    <line>
+      <![CDATA[<html>
+<body>
+{"response":"success","operation":"multiply","operand1":18,"operand2":5,"value":90}
+
+</body>
+</html>
+]]>
+    </line>
+    <line>
+      <![CDATA[<html>
+<body>
+{"response":"success","operation":"multiply","operand1":10,"operand2":1,"value":10}
+
+</body>
+</html>
+]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5765" started-at="2019-03-12T09:28:26Z" finished-at="2019-03-12T09:28:32Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="5765" started-at="2019-03-12T09:28:26Z" finished-at="2019-03-12T09:28:32Z">
+      <class name="CalculatorAPIProject.AppTest">
+        <test-method status="PASS" signature="getdata()[pri:-1, instance:CalculatorAPIProject.AppTest@6d4b1c02]" name="getdata" duration-ms="5738" started-at="2019-03-12T09:28:26Z" finished-at="2019-03-12T09:28:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<html>
+<body>
+{"response":"success","operation":"add","operand1":10,"operand2":-1,"value":9}
+
+</body>
+</html>
+]]>
+            </line>
+            <line>
+              <![CDATA[<html>
+<body>
+{"response":"success","operation":"add","operand1":12,"operand2":2,"value":14}
+
+</body>
+</html>
+]]>
+            </line>
+            <line>
+              <![CDATA[<html>
+<body>
+{"response":"success","operation":"add","operand1":14,"operand2":3,"value":17}
+
+</body>
+</html>
+]]>
+            </line>
+            <line>
+              <![CDATA[<html>
+<body>
+{"response":"success","operation":"add","operand1":16,"operand2":4,"value":20}
+
+</body>
+</html>
+]]>
+            </line>
+            <line>
+              <![CDATA[<html>
+<body>
+{"response":"success","operation":"add","operand1":18,"operand2":5,"value":23}
+
+</body>
+</html>
+]]>
+            </line>
+            <line>
+              <![CDATA[<html>
+<body>
+{"response":"bad data"}
+
+</body>
+</html>
+]]>
+            </line>
+            <line>
+              <![CDATA[<html>
+<body>
+{"response":"success","operation":"subtract","operand1":12,"operand2":2,"value":10}
+
+</body>
+</html>
+]]>
+            </line>
+            <line>
+              <![CDATA[<html>
+<body>
+{"response":"success","operation":"subtract","operand1":14,"operand2":3,"value":11}
+
+</body>
+</html>
+]]>
+            </line>
+            <line>
+              <![CDATA[<html>
+<body>
+{"response":"success","operation":"subtract","operand1":16,"operand2":4,"value":12}
+
+</body>
+</html>
+]]>
+            </line>
+            <line>
+              <![CDATA[<html>
+<body>
+{"response":"success","operation":"subtract","operand1":18,"operand2":5,"value":13}
+
+</body>
+</html>
+]]>
+            </line>
+            <line>
+              <![CDATA[<html>
+<body>
+{"response":"success","operation":"divide","operand1":10,"operand2":1,"value":10}
+
+</body>
+</html>
+]]>
+            </line>
+            <line>
+              <![CDATA[<html>
+<body>
+{"response":"success","operation":"divide","operand1":12,"operand2":2,"value":6}
+
+</body>
+</html>
+]]>
+            </line>
+            <line>
+              <![CDATA[<html>
+<body>
+{"response":"success","operation":"divide","operand1":14,"operand2":3,"value":4}
+
+</body>
+</html>
+]]>
+            </line>
+            <line>
+              <![CDATA[<html>
+<body>
+{"response":"success","operation":"divide","operand1":16,"operand2":4,"value":4}
+
+</body>
+</html>
+]]>
+            </line>
+            <line>
+              <![CDATA[<html>
+<body>
+{"response":"success","operation":"divide","operand1":18,"operand2":5,"value":3}
+
+</body>
+</html>
+]]>
+            </line>
+            <line>
+              <![CDATA[<html>
+<body>
+{"response":"success","operation":"multiply","operand1":10,"operand2":1,"value":10}
+
+</body>
+</html>
+]]>
+            </line>
+            <line>
+              <![CDATA[<html>
+<body>
+{"response":"success","operation":"multiply","operand1":12,"operand2":2,"value":24}
+
+</body>
+</html>
+]]>
+            </line>
+            <line>
+              <![CDATA[<html>
+<body>
+{"response":"success","operation":"multiply","operand1":14,"operand2":3,"value":42}
+
+</body>
+</html>
+]]>
+            </line>
+            <line>
+              <![CDATA[<html>
+<body>
+{"response":"success","operation":"multiply","operand1":16,"operand2":4,"value":64}
+
+</body>
+</html>
+]]>
+            </line>
+            <line>
+              <![CDATA[<html>
+<body>
+{"response":"success","operation":"multiply","operand1":18,"operand2":5,"value":90}
+
+</body>
+</html>
+]]>
+            </line>
+            <line>
+              <![CDATA[<html>
+<body>
+{"response":"success","operation":"multiply","operand1":10,"operand2":1,"value":10}
+
+</body>
+</html>
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getdata -->
+      </class> <!-- CalculatorAPIProject.AppTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

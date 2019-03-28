@@ -1,0 +1,237 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 12 14:58:26 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>5 seconds (5765 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='CalculatorAPIProject.AppTest.getdata()'><b>getdata</b><br>Test class: CalculatorAPIProject.AppTest<br/>
+<a href="#Output-130166095" onClick='toggleBox("Output-130166095", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-130166095" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-130166095">
+<html>
+<body>
+{"response":"success","operation":"add","operand1":10,"operand2":-1,"value":9}
+
+</body>
+</html>
+<br/>
+<html>
+<body>
+{"response":"success","operation":"add","operand1":12,"operand2":2,"value":14}
+
+</body>
+</html>
+<br/>
+<html>
+<body>
+{"response":"success","operation":"add","operand1":14,"operand2":3,"value":17}
+
+</body>
+</html>
+<br/>
+<html>
+<body>
+{"response":"success","operation":"add","operand1":16,"operand2":4,"value":20}
+
+</body>
+</html>
+<br/>
+<html>
+<body>
+{"response":"success","operation":"add","operand1":18,"operand2":5,"value":23}
+
+</body>
+</html>
+<br/>
+<html>
+<body>
+{"response":"bad data"}
+
+</body>
+</html>
+<br/>
+<html>
+<body>
+{"response":"success","operation":"subtract","operand1":12,"operand2":2,"value":10}
+
+</body>
+</html>
+<br/>
+<html>
+<body>
+{"response":"success","operation":"subtract","operand1":14,"operand2":3,"value":11}
+
+</body>
+</html>
+<br/>
+<html>
+<body>
+{"response":"success","operation":"subtract","operand1":16,"operand2":4,"value":12}
+
+</body>
+</html>
+<br/>
+<html>
+<body>
+{"response":"success","operation":"subtract","operand1":18,"operand2":5,"value":13}
+
+</body>
+</html>
+<br/>
+<html>
+<body>
+{"response":"success","operation":"divide","operand1":10,"operand2":1,"value":10}
+
+</body>
+</html>
+<br/>
+<html>
+<body>
+{"response":"success","operation":"divide","operand1":12,"operand2":2,"value":6}
+
+</body>
+</html>
+<br/>
+<html>
+<body>
+{"response":"success","operation":"divide","operand1":14,"operand2":3,"value":4}
+
+</body>
+</html>
+<br/>
+<html>
+<body>
+{"response":"success","operation":"divide","operand1":16,"operand2":4,"value":4}
+
+</body>
+</html>
+<br/>
+<html>
+<body>
+{"response":"success","operation":"divide","operand1":18,"operand2":5,"value":3}
+
+</body>
+</html>
+<br/>
+<html>
+<body>
+{"response":"success","operation":"multiply","operand1":10,"operand2":1,"value":10}
+
+</body>
+</html>
+<br/>
+<html>
+<body>
+{"response":"success","operation":"multiply","operand1":12,"operand2":2,"value":24}
+
+</body>
+</html>
+<br/>
+<html>
+<body>
+{"response":"success","operation":"multiply","operand1":14,"operand2":3,"value":42}
+
+</body>
+</html>
+<br/>
+<html>
+<body>
+{"response":"success","operation":"multiply","operand1":16,"operand2":4,"value":64}
+
+</body>
+</html>
+<br/>
+<html>
+<body>
+{"response":"success","operation":"multiply","operand1":18,"operand2":5,"value":90}
+
+</body>
+</html>
+<br/>
+<html>
+<body>
+{"response":"success","operation":"multiply","operand1":10,"operand2":1,"value":10}
+
+</body>
+</html>
+<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>CalculatorAPIProject.AppTest@6d4b1c02</td></tr>
+</table><p>
+</body>
+</html>
